@@ -1,0 +1,15 @@
+server:
+  port: 9999
+
+spring:
+  application:
+    name: 'ntt-config-server'
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/Fabian216/ntt-config-repo
+          search-paths: '{application}'
+
+encrypt:
+  key: my-strong-secret-key
