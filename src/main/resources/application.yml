@@ -8,7 +8,7 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/Fabian216/ntt-config-repo
+          uri: https://github.com/STEFFY2820/ntt-config-repo
           search-paths: '{application}'
 
 encrypt:
